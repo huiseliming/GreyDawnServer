@@ -11,6 +11,7 @@ int main()
         .setLogLevel(trantor::Logger::kWarn)
         .addListener("0.0.0.0", 7770)
         .setThreadNum(0)
+        //.registerController(std::make_shared<JsonHelloWorldCtrl>())
         .registerSyncAdvice([](const HttpRequestPtr &req) -> HttpResponsePtr {
             const auto &path = req->path();
             if (path.length() == 1 && path[0] == '/')
