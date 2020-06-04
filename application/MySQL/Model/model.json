@@ -1,8 +1,8 @@
 {
     "rdbms":"mysql",
-    "host":"127.0.0.1",
+    "host":"192.168.1.102",
     "port":3306,
-    "dbname":"test",
+    "dbname":"products_db2",
     "user":"daimingze",
     "passwd":"daimingze",
     "tables":[]
