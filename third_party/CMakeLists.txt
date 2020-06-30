@@ -1,9 +1,8 @@
+cmake_minimum_required(VERSION 3.12)
 
+set(THIS third_party)
 
-
-add_subdirectory(gl3w)
-
-
+project(${THIS})
 
 
 
