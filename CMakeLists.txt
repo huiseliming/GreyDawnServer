@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.12)
 
-set(THIS GreyDawnServer)
+set(This GreyDawnServer)
+project(${This})
 
-project(${THIS})
 message(STATUS "compiler: " ${CMAKE_CXX_COMPILER_ID})
 
 set(CMAKE_C_STANDARD 99)
@@ -42,9 +42,7 @@ find_package(GTest CONFIG REQUIRED)
 
 add_subdirectory(third_party)
 
-
-
-
+add_subdirectory(grey_dawn_server)
 
 
 
